@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dfemte7jtqo5r"]
+
+[ext_resource type="Script" uid="uid://c87uqkf7w7x82" path="res://script/player.gd" id="1_3vyb7"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1316917645]
+script = ExtResource("1_3vyb7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1353896277]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=161143066]
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=1522071083]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1607703900]
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=2140823161]
+
+[node name="CoyoteTimer" type="Timer" parent="." unique_id=1526225009]
+wait_time = 0.1
+one_shot = true
+
+[node name="JumpBufferTimer" type="Timer" parent="." unique_id=46627853]
+wait_time = 0.1
+one_shot = true
+
+[connection signal="timeout" from="CoyoteTimer" to="." method="_on_coyote_timer_timeout"]
+[connection signal="timeout" from="JumpBufferTimer" to="." method="_on_jump_buffer_timer_timeout"]
