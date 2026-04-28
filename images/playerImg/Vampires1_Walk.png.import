@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkk5egu0emk8t"
-path="res://.godot/imported/stickman.png-21aca175d244e0069969c5d31b4a32ad.ctex"
+uid="uid://dylfw16vguflk"
+path="res://.godot/imported/Vampires1_Walk.png-7e10dafe515079b508611fda221deba3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/playerImg/stickman.png"
-dest_files=["res://.godot/imported/stickman.png-21aca175d244e0069969c5d31b4a32ad.ctex"]
+source_file="res://images/playerImg/Vampires1_Walk.png"
+dest_files=["res://.godot/imported/Vampires1_Walk.png-7e10dafe515079b508611fda221deba3.ctex"]
 
 [params]
 
