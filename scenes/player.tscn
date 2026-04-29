@@ -300,13 +300,17 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=1316917645]
+collision_mask = 14
 script = ExtResource("1_3vyb7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1353896277]
-position = Vector2(1.5, -1)
+light_mask = 0
+visibility_layer = 0
+position = Vector2(33, 0)
 shape = SubResource("RectangleShape2D_qlg0r")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=409240341]
+position = Vector2(32, 0)
 sprite_frames = SubResource("SpriteFrames_mx1m4")
 animation = &"idle"
 frame_progress = 0.19074304
@@ -314,8 +318,15 @@ frame_progress = 0.19074304
 [node name="Marker2D" type="Marker2D" parent="." unique_id=1522071083]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1607703900]
+position = Vector2(34, 1)
+zoom = Vector2(3, 3)
+limit_left = 0
+limit_top = -34
+limit_right = 430
+limit_bottom = 266
 
 [node name="RayCast2D" type="RayCast2D" parent="." unique_id=2140823161]
+position = Vector2(34, 0)
 
 [node name="CoyoteTimer" type="Timer" parent="." unique_id=1526225009]
 wait_time = 0.1
