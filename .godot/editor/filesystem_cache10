@@ -1,7 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777467912
+::res://::1777898820
 icon.svg::CompressedTexture2D::1406934485263173680::1777296987::1777380811::1::::<><><>0<>0<>45885c684aed04f3974018052c60630d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1777383778::0::1::::<><><>0<>0<><>::
 ::res://images/::1777384110
 ::res://images/castleTileset/::1777384123
 Tilesetv3.png::CompressedTexture2D::7070597694562349721::1563463688::1777384123::1::::<><><>0<>0<>080241673d0af3ec183dd88e94911bd2<>res://.godot/imported/Tilesetv3.png-7bbed92b50f0d1ab6560b5ed5d64e977.ctex::
@@ -11,8 +10,9 @@ Vampires1_Death.png::CompressedTexture2D::5482139399692829810::1777383420::17773
 Vampires1_Hurt.png::CompressedTexture2D::7933031433280901416::1777383719::1777383719::1::::<><><>0<>0<>02042415e67697225281872199799150<>res://.godot/imported/Vampires1_Hurt.png-b57ca7d3f970c68dc75c658a35a12a04.ctex::
 Vampires1_Idle.png::CompressedTexture2D::7614553337971705075::1777383351::1777383351::1::::<><><>0<>0<>74277c3553299165e72215955d8091de<>res://.godot/imported/Vampires1_Idle.png-928279bc7b7b765e48206f06a3fb82fe.ctex::
 Vampires1_Walk.png::CompressedTexture2D::8866846740575472756::1777383323::1777383323::1::::<><><>0<>0<>6dd6f17cb998c8adc9380f3b50d52e5d<>res://.godot/imported/Vampires1_Walk.png-7e10dafe515079b508611fda221deba3.ctex::
-::res://scenes/::1777401687
-main.tscn::PackedScene::7590120711881599298::1777401687::0::1::::<><><>0<>0<><>::uid://c70byf6h28qwv::::res://images/castleTileset/Tilesetv3.png
-player.tscn::PackedScene::7519226574245191957::1777383931::0::1::::<><><>0<>0<><>::uid://c87uqkf7w7x82::::res://script/player.gd<>uid://cje5g7bvjxfxe::::res://images/playerImg/Vampires1_Attack.png<>uid://ckdubgofph1jq::::res://images/playerImg/Vampires1_Death.png<>uid://dla24sgowrlgi::::res://images/playerImg/Vampires1_Hurt.png<>uid://dylfw16vguflk::::res://images/playerImg/Vampires1_Walk.png
+::res://scenes/::1777474044
+main.gd::GDScript::7812692213486901803::1777473807::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::7590120711881599298::1777473807::0::1::::<><><>0<>0<><>::uid://c70byf6h28qwv::::res://images/castleTileset/Tilesetv3.png<>uid://djkr5tunadlnn::::res://scenes/main.gd
+player.tscn::PackedScene::7519226574245191957::1777474044::0::1::::<><><>0<>0<><>::uid://c87uqkf7w7x82::::res://script/player.gd<>uid://cje5g7bvjxfxe::::res://images/playerImg/Vampires1_Attack.png<>uid://ckdubgofph1jq::::res://images/playerImg/Vampires1_Death.png<>uid://dla24sgowrlgi::::res://images/playerImg/Vampires1_Hurt.png<>uid://dylfw16vguflk::::res://images/playerImg/Vampires1_Walk.png
 ::res://script/::1777382618
 player.gd::GDScript::7156376742571133177::1777299571::0::1::::<>CharacterBody2D<><>0<>0<><>::
