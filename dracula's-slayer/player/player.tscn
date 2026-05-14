@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://3kk3vvldncpv"]
+
+[ext_resource type="Script" uid="uid://dhce81ie25875" path="res://player/scripts/player.gd" id="1_oul6g"]
+[ext_resource type="Script" uid="uid://ws1hdt348h27" path="res://player/states/idle.gd" id="2_g1dw6"]
+[ext_resource type="Script" uid="uid://dhgv6d4nbq30e" path="res://player/states/run.gd" id="3_yw30f"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_kqu6x"]
+size = Vector2(18, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oul6g"]
+size = Vector2(16, 46)
+
+[node name="Player" type="CharacterBody2D" unique_id=1502520358]
+script = ExtResource("1_oul6g")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2069863704]
+position = Vector2(0, -24)
+texture = SubResource("PlaceholderTexture2D_kqu6x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=209899175]
+position = Vector2(0, -23)
+shape = SubResource("RectangleShape2D_oul6g")
+
+[node name="States" type="Node" parent="." unique_id=1428216124]
+
+[node name="Idle" type="Node" parent="States" unique_id=1749309255]
+script = ExtResource("2_g1dw6")
+
+[node name="Run" type="Node" parent="States" unique_id=1923767505]
+script = ExtResource("3_yw30f")
