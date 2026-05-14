@@ -57,6 +57,7 @@ func initialize_states():
 	# settare stati
 	change_state(current_state)
 	current_state.enter()
+	$Label.text = current_state.name
 	pass
 
 
@@ -73,6 +74,7 @@ func change_state(new_state : PlayerState) -> void:
 	current_state.enter()
 	
 	states.resize(3)
+	$Label.text = current_state.name
 	pass
 
 func upgrade_function() -> void:

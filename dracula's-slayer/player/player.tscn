@@ -13,6 +13,17 @@ size = Vector2(16, 46)
 [node name="Player" type="CharacterBody2D" unique_id=1502520358]
 script = ExtResource("1_oul6g")
 
+[node name="States" type="Node" parent="." unique_id=1428216124]
+unique_name_in_owner = true
+
+[node name="Idle" type="Node" parent="States" unique_id=1749309255]
+unique_name_in_owner = true
+script = ExtResource("2_g1dw6")
+
+[node name="Run" type="Node" parent="States" unique_id=1923767505]
+unique_name_in_owner = true
+script = ExtResource("3_yw30f")
+
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2069863704]
 position = Vector2(0, -24)
 texture = SubResource("PlaceholderTexture2D_kqu6x")
@@ -21,10 +32,10 @@ texture = SubResource("PlaceholderTexture2D_kqu6x")
 position = Vector2(0, -23)
 shape = SubResource("RectangleShape2D_oul6g")
 
-[node name="States" type="Node" parent="." unique_id=1428216124]
-
-[node name="Idle" type="Node" parent="States" unique_id=1749309255]
-script = ExtResource("2_g1dw6")
-
-[node name="Run" type="Node" parent="States" unique_id=1923767505]
-script = ExtResource("3_yw30f")
+[node name="Label" type="Label" parent="." unique_id=472388786]
+offset_left = -40.0
+offset_top = -76.0
+offset_right = 40.0
+offset_bottom = -53.0
+text = "label"
+horizontal_alignment = 1
